@@ -20,18 +20,83 @@
 					<h1>Intro to Rust</h1>
 					Safe, correct, and <i>portable</i> solutions.
 				</section>
-				<section>
-					<h2>Presenter</h2>
-					Add details about self here.
+				<section data-background-iframe="https://hoetker.engineer" data-background-interactive>
+					<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+						<h2>Presenter Info</h2>
+						<p>Software Engineer working at American Express. Interested in scientific computing, natural language processing, and Rust.</p>
+					</div>
 				</section>
 				<section>
-					<h2>Rust Advantages</h2>
+					<h2>What is Rust?</h2>
+					<blockquote cite="https://www.rust-lang.org/">
+						&ldquo;A language empowering everyone to build reliable and efficient software.&rdquo;
+					</blockquote>
+				</section>
+				<section data-auto-animate>
+					<h3> What kind of language is it?</h3>
+					<ul>
+						<li>Ahead-of-time compiled</li>
+						<li>Strong, affine types</li>
+						<li>Minimal runtime, no garbage collector</li>
+						<li>No runtime exceptions</li>
+						<li>Functional programming, if you want it</li>
+					</ul>
+				</section>
+				<section data-auto-animate>
+					<h3> What kind of language is it?</h3>
+					<ul>
+						<li>Ahead-of-time compiled</li>
+						<li>Strong, affine types</li>
+						<li>Minimal runtime, no garbage collector</li>
+						<li>No runtime exceptions</li>
+						<li>Functional programming, if you want it</li>
+						<li><i>Some*</i> object orientation, if you want it</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Advantages</h2>
 					<ul>
 						<li>Correctness</li>
 						<li>Fearless concurrency</li>
 						<li>Memory safety</li>
 						<li>Portability</li>
 					</ul>
+				</section>
+				<section>
+					<h2>Who is using Rust?</h2>
+					<div class="r-stack">
+						<img class="fragment" src="./img/npm.png" width="646" height="400">
+						<img class="fragment" src="./img/cloudflare.png" width="646" height="400">
+						<img class="fragment" src="./img/canonical.png" width="646" height="400">
+					</div>
+					<div class="fragment">
+						See more: <a href="https://prev.rust-lang.org/en-US/friends.html">Friends of Rust</a>
+					</div>
+				</section>
+				<section data-auto-animate>
+					<h4>Consider Rust for problems with these properties:</h4>
+					<ul>
+						<div class="fragment"><li>Highly parallel</li></div>
+						<div class="fragment"><li>High availability requirements</li></div>
+						<div class="fragment"><li>High performance requirements</li></div>
+						<div class="fragment"><li>Low-level memory manipulation</li></div>
+						<div class="fragment"><li>Hardware binary portability</li></div>
+						<div class="fragment"><li>Language interoperability</li></div>
+					</ul>
+				</section>
+				<section data-auto-animate>
+					<h4>Example - Visualizing the Mandelbrot set:</h4>
+					<ul>
+						<li>Highly parallel</li>
+						<li>High performance requirements</li>
+						<li>Language interoperability</li>
+					</ul>
+				</section>
+				<section data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mandel_zoom_00_mandelbrot_set.jpg/1920px-Mandel_zoom_00_mandelbrot_set.jpg">
+				<div style="position: absolute; width: 45%; right: 0; background-color: rgba(0, 0, 0, 0); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+					<h2>Example Implementation</h2>
+					The Mandelbrot Set
+				</div>
 				</section>
 				<section data-auto-animate>
 					<h2 data-id="code-title">Mandelbrot Iteration</h2>
@@ -73,6 +138,8 @@
 					    }
 					}
 					</code></pre>
+				</section>
+				<section data-background-iframe="https://ahoetker.github.io/mandelbrot-wasm" data-background-interactive>
 				</section>
 			</div>
 		</div>
